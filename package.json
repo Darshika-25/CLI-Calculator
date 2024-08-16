@@ -1,0 +1,23 @@
+{
+  "name": "@darshika.dev/calculator",
+  "version": "1.0.2",
+  "description": "A simple calculator on typescript and node.js with use of Inquirer and Chalk library for colour vibrancy.",
+  "main": "index.js",
+	"type": "module",
+	"bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["simple calculator",
+    "mini calculator"
+],
+  "author": "Darshika Parekh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
